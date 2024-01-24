@@ -1,11 +1,12 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
-
 # TS-01 To-Do App with TypeScript
 
 ## Description
 
 Project aims to create a To-Do App with TypeScript.
+
+## Demo
+
+[TodoApp with Vite+Typescript](https://todo-typescript-dev.netlify.app/)
 
 ## Problem Statement
 
@@ -39,32 +40,6 @@ SOLUTION
 └── pnpm-lock.yaml
 ```
 
-```
-Todoapp with TypeScript+React(CRA)
-
-SOLUTION
-├── package.json
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-├── README.md
-├── src
-│   ├── App.tsx
-│   ├── components
-│   │   ├── AddTodoComp.tsx
-│   │   ├── TodoListItem.tsx
-│   │   └── TodoList.tsx
-│   ├── helper
-│   │   └── sweetAlert.ts
-│   ├── index.tsx
-│   ├── pages
-│   │   └── Main.tsx
-│   ├── react-app-env.d.ts
-│   └── types.d.ts
-├── tsconfig.json
-└── yarn.lock
-```
-
 ## Expected Outcome
 
 ![todoapp](./todoapp.gif)
@@ -81,12 +56,6 @@ Build a TodoApp with Typescript using Vite+ReactJS.
 - TS
 - React
 
-### At the end of the project, students will be able to;
-
-- improve coding skills within HTML & CSS & JS & TS & React.
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
 ## Steps to Solution
 
 - Step 1 : Vite using `pnpm create vite` or `yarn create vite` or `pnpm create vite todoapp --template react-ts`.
@@ -102,12 +71,6 @@ Build a TodoApp with Typescript using Vite+ReactJS.
 ## Notes
 
 - You can add additional functionalities to your app.
-
-## Demo
-
-[TodoApp with Vite+Typescript](https://todoapp-vite-ts.vercel.app/)
-
-[TodoApp with CRA+Typescript](https://ts-todo-xi.vercel.app/)
 
 ## MockApi
 
@@ -138,19 +101,6 @@ pnpm create vite todoapp --template react-ts
 ```
 
 ![Vite ile Proje Oluşturma](./ts-vite.gif)
-
-## Start Project CRA
-
-```
-npx create-react-app todo-ts --template typescript
-
-#or
-
-yarn create react-app todo-ts --template typescript
-
-```
-
-![CRA ile Proje Oluşturma](./ts-cra.gif)
 
 
 ## Useful Links
